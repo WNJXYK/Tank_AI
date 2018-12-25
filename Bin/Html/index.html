@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | 坦克大战 - 基于BP神经网络的智能学习算法</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Html.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <button onclick="alert('黑色坦克User：用户操控，方向键+Space\n灰色坦克L-User：学习黑色坦克行为\n红色坦克Shoot：自瞄射击\n靛青坦克L-Shoot:学习红色坦克行为\n黄色坦克Escape：规避风险\n橙色坦克L-S&E：同时学习红色坦克与橙色坦克行为\n绿色坦克L-L-S&E：学习橙色坦克行为\n白色坦克均为Target，提供射击目标\n得分计算规则：击中+1，击杀+5\n单击R键直接进入下一轮')">点击此处获得帮助？</button>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">坦克大战 - 基于BP神经网络的智能学习算法</div>
+      </div>
+    </div>
+  </body>
+</html>

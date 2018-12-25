@@ -1,0 +1,13 @@
+{
+"companyName": "WNJXYK",
+"productName": "坦克大战 - 基于BP神经网络的智能学习算法",
+"dataUrl": "Html.data.unityweb",
+"asmCodeUrl": "Html.asm.code.unityweb",
+"asmMemoryUrl": "Html.asm.memory.unityweb",
+"asmFrameworkUrl": "Html.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

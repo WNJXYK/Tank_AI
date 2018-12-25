@@ -1,0 +1,1 @@
+<button onclick="alert('黑色坦克User：用户操控，方向键+Space\n灰色坦克L-User：学习黑色坦克行为\n红色坦克Shoot：自瞄射击\n靛青坦克L-Shoot:学习红色坦克行为\n黄色坦克Escape：规避风险\n橙色坦克L-S&E：同时学习红色坦克与橙色坦克行为\n绿色坦克L-L-S&E：学习橙色坦克行为\n白色坦克均为Target，提供设计目标\n得分计算规则：击中+1，击杀+5')">点击此处获得帮助？</button>
